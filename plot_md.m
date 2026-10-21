@@ -11,7 +11,7 @@ addpath(genpath(fullfile(root,'src')));
 selection='bayesian'; % 'gaussian': 2-by-3 MWG (top) / joint Hilbert (bottom)
                      % 'bayesian': Ripley/Pima; 'ripley' or 'pima': one dataset
                      % 'all': Bayesian and Gaussian figures
-% Empty paths check runs/ newest to oldest for complete matching dimensions/N.
+% Empty paths check results/ newest to oldest for complete matching dimensions/N.
 % Checkpoints and incomplete files are skipped; actual input paths are printed.
 mwgMatFile='';
 gaussianMatFile='';

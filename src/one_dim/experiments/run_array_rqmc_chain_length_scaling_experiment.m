@@ -201,9 +201,9 @@ function opt = parse_options(varargin)
     addParameter(ip, 'UseParallel', true, @logical_scalar);
     addParameter(ip, 'AutoStartPool', true, @logical_scalar);
     addParameter(ip, 'SingleNOutputDir', ...
-        fullfile(pwd, 'runs', 'one_dim_horizon', 'individual'), @text_scalar);
+        fullfile(pwd, 'results', 'one_dim_horizon', 'individual'), @text_scalar);
     addParameter(ip, 'OutputDir', ...
-        fullfile(pwd, 'runs', 'one_dim_horizon'), @text_scalar);
+        fullfile(pwd, 'results', 'one_dim_horizon'), @text_scalar);
     addParameter(ip, 'ResumeFromCheckpoint', true, @logical_scalar);
     addParameter(ip, 'ReuseCompletedResults', true, @logical_scalar);
     addParameter(ip, 'SlopeTailCount', 5, ...

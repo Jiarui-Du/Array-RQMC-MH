@@ -5,7 +5,7 @@ function [results,matFile]=load_array_rqmc_horizon_result(matFile)
     if explicit
         files={matFile};
     else
-        listing=dir(fullfile(root,'runs','one_dim_horizon','**','*.mat'));
+        listing=dir(fullfile(root,'results','one_dim_horizon','**','*.mat'));
         [~,order]=sort([listing.datenum],'descend');listing=listing(order);
         files=arrayfun(@(x)fullfile(x.folder,x.name),listing,'UniformOutput',false);
     end

@@ -1,7 +1,7 @@
 function path=select_result_file(dataset,dimensions,exponents,explicitPath,runRoot)
 % Select newest readable complete result satisfying the requested grid.
 % Explicit paths are validated without fallback; this function never simulates.
-    if nargin<5,root=fileparts(fileparts(fileparts(mfilename('fullpath'))));runRoot=fullfile(root,'runs');end
+    if nargin<5,root=fileparts(fileparts(fileparts(mfilename('fullpath'))));runRoot=fullfile(root,'results');end
     if strcmp(dataset,'mwg'),dataset='gaussian_mwg';end
     folders=struct('gaussian','gaussian','gaussian_mwg','gaussian_mwg','ripley','bayesian','pima','bayesian');
     patterns=struct('gaussian','gaussian_hilbert_*.mat','gaussian_mwg','gaussian_mwg_v2_*.mat', ...

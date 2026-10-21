@@ -15,7 +15,7 @@ mVec=10:18; T0=8; T=128; R=200; sigma=2.38; x0=0; seed=2026;
 %% Configure workers and separate timing
 useParallel=true; numWorkers=4;
 runTiming=true; timingR=20;
-outputDir=fullfile(root,'runs','one_dim');
+outputDir=fullfile(root,'results','one_dim');
 
 %% Start the requested pool
 if useParallel

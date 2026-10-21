@@ -5,7 +5,7 @@
 
 %% Resolve saved result paths
 root=fileparts(mfilename('fullpath')); addpath(genpath(fullfile(root,'src')));
-resultsDir=fullfile(root,'runs','one_dim');
+resultsDir=fullfile(root,'results','one_dim');
 
 %% Display the summary; set nonempty OutputCSV/OutputTeX paths to export
 summary=export_array_rqmc_vrf_tae_slopes_v2(resultsDir, ...

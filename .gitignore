@@ -2,5 +2,5 @@
 *.log
 **/*checkpoint*.mat
 **/*pending*.mat
-runs/smoke*/
-runs/performance_checks/
+results/smoke*/
+results/performance_checks/

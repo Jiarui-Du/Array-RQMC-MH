@@ -25,7 +25,7 @@ function [results,artifacts]=run_array_rqmc_horizon_suite(options)
         && all(options.TVec==fix(options.TVec)) && all(diff(options.TVec)>0) && all(options.TVec>options.T0));
     assert(options.R>=2 && options.SlopeTailCount>=2 && isfinite(options.sigma) && isfinite(options.InitialState));
     root=fileparts(fileparts(fileparts(fileparts(mfilename('fullpath')))));
-    folder=options.OutputDir;if isempty(folder),folder=fullfile(root,'runs','one_dim_horizon');end
+    folder=options.OutputDir;if isempty(folder),folder=fullfile(root,'results','one_dim_horizon');end
     if isempty(options.ResumeDir)
         folder=fullfile(folder,['run_' char(datetime('now','Format','yyyyMMdd_HHmmss_SSS'))]);
         assert(~isfolder(folder),'Run directory already exists; retry.');mkdir(folder);

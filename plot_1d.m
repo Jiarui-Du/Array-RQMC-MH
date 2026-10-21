@@ -5,7 +5,7 @@
 
 %% Resolve source and result folders
 root=fileparts(mfilename('fullpath')); addpath(genpath(fullfile(root,'src')));
-resultsDir=fullfile(root,'runs','one_dim'); % Fresh results from run_1d.
+resultsDir=fullfile(root,'results','one_dim'); % Fresh results from run_1d.
 
 %% Select panels and figure visibility
 targetIDs={'normal','double_well_e1','gaussian_mixture3','student_t3'};

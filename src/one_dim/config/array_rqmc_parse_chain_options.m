@@ -14,7 +14,7 @@ function opt = array_rqmc_parse_chain_options(varargin)
     addParameter(ip, 'MasterSeed', 2026, @nonnegative_integer);
     addParameter(ip, 'UseParallel', true, @logical_scalar);
     addParameter(ip, 'AutoStartPool', true, @logical_scalar);
-    addParameter(ip, 'OutputDir', fullfile(pwd, 'runs', 'one_dim_horizon', 'individual'), @text_scalar);
+    addParameter(ip, 'OutputDir', fullfile(pwd, 'results', 'one_dim_horizon', 'individual'), @text_scalar);
     addParameter(ip, 'ResumeFromCheckpoint', true, @logical_scalar);
     addParameter(ip, 'ConfidenceLevel', 0.95, ...
         @(x) isnumeric(x) && isscalar(x) && isfinite(x) && x > 0 && x < 1);

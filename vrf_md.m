@@ -14,7 +14,7 @@ exponents=18;      % Use 18 to show only N=2^18
 tailCount=5; bootstrap=1000; % Slope fit uses the source grid, even if exponents=18
 tests='projection';  % Paper results: projection for Gaussian, MWG and Bayesian experiments
 % Display VRF and slope intervals, serial median seconds, and TAE (NaN if not timed).
-matFile='';          % Empty checks newest to oldest under runs/; reads the first complete matching dimensions/N.
+matFile='';          % Empty checks newest to oldest under results/; reads the first complete matching dimensions/N.
 csvFile='';          % Empty disables CSV export; otherwise save the displayed statistics to this path.
 
 %% Read and display the requested variance-reduction table

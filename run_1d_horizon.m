@@ -11,7 +11,7 @@ R=50;sigma=2.38;x0=0;seed=2026;slopeTailCount=5;
 
 %% Configure workers and output
 useParallel=true;numWorkers=4;
-outputDir=fullfile(root,'runs','one_dim_horizon');
+outputDir=fullfile(root,'results','one_dim_horizon');
 % Empty starts a fresh run. For resumption, specify its printed run directory.
 resumeDir='';
 if useParallel

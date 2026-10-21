@@ -55,18 +55,18 @@ Slope estimates use the largest five grid points. The $95\%$ percentile bootstra
 Independent serial benchmarks use 20 complete single-test runs per method. The efficiency measure is
 
 $$
-\mathrm{TAE}=\mathrm{VRF}\,\frac{\operatorname{median}(t_{\mathrm{IID}})}{\operatorname{median}(t_{\mathrm{Array}})}.
+\mathrm{TAE}=\mathrm{VRF}\,\frac{\mathrm{median}(t_{\mathrm{IID}})}{\mathrm{median}(t_{\mathrm{Array}})}.
 $$
 
 Timing includes random-stream setup, initialization, sorting, scrambling, Hilbert-index construction, transitions and test evaluation. Data/model preparation and file I/O are excluded. Statistical parallel wall times are not used for TAE. Timing results depend on hardware and system load.
 
-The `runs/` directory contains only MAT files. Variances, VRFs, slope intervals and TAE tables are computed from these files; pre-exported CSV and LaTeX tables are not required.
+The `results/` directory contains only MAT files. Variances, VRFs, slope intervals and TAE tables are computed from these files; pre-exported CSV and LaTeX tables are not required.
 
 ## Directory layout
 
 - `src/`: simulation, analysis and plotting functions.
 - `data/`: model inputs, source datasets and preprocessing records.
-- `runs/`: saved estimates and experiment metadata, organized by experiment.
+- `results/`: saved estimates and experiment metadata, organized by experiment.
 - `figures/`: PDF and MATLAB FIG files.
 - `tests/`: small validation functions.
 

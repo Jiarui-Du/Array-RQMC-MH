@@ -2,7 +2,7 @@ function output=plot_paper_convergence(selection,options)
 % Paper figures: selected Bayesian test; 2-by-3 MWG/joint Gaussian projection.
 %
 % Returns figure handles, selected summary data and exported filenames.
-% All dataset paths may be overridden; empty paths select complete matching results under runs/.
+% All dataset paths may be overridden; empty paths select complete matching results under results/.
 % Saving exports PDF/FIG and does not alter the saved simulation results.
 
     %% Declare figure selection, sources and style
