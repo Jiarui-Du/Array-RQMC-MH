@@ -1,0 +1,82 @@
+[
+  {
+    "dataset": "ripley",
+    "url": "https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/MASS/synth.tr.csv",
+    "path": "data\\ripley\\source\\synth.tr.csv",
+    "download_date": "2026-10-02",
+    "sha256": "a0360161d301dbffab7bfb5d19b4904b1d6dd501c2d1937b0fec3a0bfe1b7c1e",
+    "rows": 250,
+    "columns": [
+      "rownames",
+      "xs",
+      "ys",
+      "yc"
+    ]
+  },
+  {
+    "dataset": "ripley",
+    "url": "https://gitlab.com/aggelisalexopoulos/variance-reduction/-/blob/07c5bc69c664904881f4845d4628d2ce0b8e1981/data/Logistic_Ripley/myX.txt",
+    "path": "data\\ripley\\author\\myX.txt",
+    "download_date": "2026-10-02",
+    "sha256": "c7cb028752145dcafd5fb1520bb24128e05facbdd6dea5b545cb19afe111e4f8"
+  },
+  {
+    "dataset": "ripley",
+    "url": "https://gitlab.com/aggelisalexopoulos/variance-reduction/-/blob/07c5bc69c664904881f4845d4628d2ce0b8e1981/data/Logistic_Ripley/Y.txt",
+    "path": "data\\ripley\\author\\Y.txt",
+    "download_date": "2026-10-02",
+    "sha256": "85568e522d367e42334d33e24f726b831e28dbb28fd38cc81efcd27b629a0919"
+  },
+  {
+    "dataset": "pima",
+    "url": "https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/MASS/Pima.tr.csv",
+    "path": "data\\pima\\source\\Pima.tr.csv",
+    "download_date": "2026-10-02",
+    "sha256": "78e6284c75bf81eaae97815f7d0dd2992a119629ec6622de7918258311c32a7a",
+    "rows": 200,
+    "columns": [
+      "rownames",
+      "npreg",
+      "glu",
+      "bp",
+      "skin",
+      "bmi",
+      "ped",
+      "age",
+      "type"
+    ]
+  },
+  {
+    "dataset": "pima",
+    "url": "https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/MASS/Pima.te.csv",
+    "path": "data\\pima\\source\\Pima.te.csv",
+    "download_date": "2026-10-02",
+    "sha256": "b00bf6540cce6b6bc44ea65a149da3142b2039b37980dbcdf18d3750fc9db032",
+    "rows": 332,
+    "columns": [
+      "rownames",
+      "npreg",
+      "glu",
+      "bp",
+      "skin",
+      "bmi",
+      "ped",
+      "age",
+      "type"
+    ]
+  },
+  {
+    "dataset": "pima",
+    "url": "https://gitlab.com/aggelisalexopoulos/variance-reduction/-/blob/07c5bc69c664904881f4845d4628d2ce0b8e1981/data/Logistic_Pima/myX.txt",
+    "path": "data\\pima\\author\\myX.txt",
+    "download_date": "2026-10-02",
+    "sha256": "0a6655dc718925568bed50aa18f00d771e497a9cf337e8c5aa8b7f123220c645"
+  },
+  {
+    "dataset": "pima",
+    "url": "https://gitlab.com/aggelisalexopoulos/variance-reduction/-/blob/07c5bc69c664904881f4845d4628d2ce0b8e1981/data/Logistic_Pima/Y.txt",
+    "path": "data\\pima\\author\\Y.txt",
+    "download_date": "2026-10-02",
+    "sha256": "71b70e0eb9bd7d5fcf28af544d454165a82368ed16cbd3f03f8893f18f0790a7"
+  }
+]

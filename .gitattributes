@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.m text eol=lf
+*.md text eol=lf
+data/** -text
+*.mat binary
+*.fig binary
+*.pdf binary

@@ -1,0 +1,6 @@
+*.asv
+*.log
+**/*checkpoint*.mat
+**/*pending*.mat
+runs/smoke*/
+runs/performance_checks/
