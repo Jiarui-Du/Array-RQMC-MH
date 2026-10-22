@@ -107,13 +107,13 @@
     },
     {
       "path": "figures/variance_gaussian_mixture3_T.fig",
-      "bytes": 19458,
-      "sha256": "238bfc9ce8d2052733a61074e60e00f9b7d45c2fb50260b431108b411f1ef102"
+      "bytes": 19440,
+      "sha256": "b3ec4f2ba7c5c43bda17e4f5ef70ac2664a4021ee49f984baf9e854fe145a44b"
     },
     {
       "path": "figures/variance_gaussian_mixture3_T.pdf",
-      "bytes": 43099,
-      "sha256": "c796a5d997c55d870432c1f8fc32ecf7090a0e58faba7ea87bd5374e6ac8f78f"
+      "bytes": 43096,
+      "sha256": "d30214b3b213a9528dadd519eee45fa3666cea9e60a2aedcb1a6859c7659f746"
     },
     {
       "path": "figures/variance_normal.fig",
@@ -236,24 +236,9 @@
       "sha256": "223422c50c9999ace341d3a0754804a2429a1b11554f92ec10d37153bf26fa9d"
     },
     {
-      "path": "results/one_dim_horizon/bundled/array_rqmc_chain_scaling__target-gaussian_mixture3__f-cdf__Nexp-12_14_16__T0-128__Texp-8to16__R-50__sigma-2p4__x0-0__seed-2026.mat",
-      "bytes": 70288,
-      "sha256": "0d01dd4164ac00ddf0d15b85e7e71b5f9698a0d3602b5872fab60acc9c852ef1"
-    },
-    {
-      "path": "results/one_dim_horizon/bundled/individual/gaussian_mixture3_cdf_N2p12_T0_128_R_50.mat",
-      "bytes": 183216,
-      "sha256": "922285734a0b3948c6c6a9426aec632f7e54a5f48d526305d3a00bf64cd81dbf"
-    },
-    {
-      "path": "results/one_dim_horizon/bundled/individual/gaussian_mixture3_cdf_N2p14_T0_128_R_50.mat",
-      "bytes": 183216,
-      "sha256": "ac81148afd0b49b2fba15417f2258000d8874c4558b692f8fa7e3d3e532bbd1f"
-    },
-    {
-      "path": "results/one_dim_horizon/bundled/individual/gaussian_mixture3_cdf_N2p16_T0_128_R_50.mat",
-      "bytes": 183216,
-      "sha256": "cbb437df8fbaf0241772ccfcba4de93780ffb910ecaf0be913f254656ae476fa"
+      "path": "results/one_dim_horizon/array_rqmc_chain_scaling__target-gaussian_mixture3__f-cdf__Nexp-12_14_16__T0-128__Texp-8to16__R-50__sigma-2p38__x0-0__seed-2026.mat",
+      "bytes": 435336,
+      "sha256": "4b5c4dbfb89f91d6eafbf5388707c3492bd2f9b9ad91e5991c7b02cdf5d739fa"
     },
     {
       "path": "run_1d.m",
@@ -722,8 +707,8 @@
     },
     {
       "path": "tests/validate_public_package.m",
-      "bytes": 3306,
-      "sha256": "42955a1afb1f003551219366044026ee8fd091daea1698b5c79d468e804b8b4c"
+      "bytes": 3192,
+      "sha256": "d6c9abf9c9a7a76f2b928a68e6dfc0c6fdfbe9db19a60be1d60c99090a5bfff6"
     },
     {
       "path": "vrf_1d.m",
